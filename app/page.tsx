@@ -1,3 +1,5 @@
+// ./app/page.tsx
+ 
 import { FrameContainer, FrameImage, FrameButton, useFramesReducer, getPreviousFrame, validateActionSignature, FrameInput } from "frames.js/next/server";
  
 const reducer = (state, action) => ({ count: state.count + 1 });
